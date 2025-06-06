@@ -3,7 +3,6 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import Header from '@/components/Header'
-import FeedSection from '@/components/FeedSection'
 import HeroSection from '@/components/HeroSection'
 import CategoryGallery from '@/components/CategoryGallery'
 import Footer from '@/components/Footer'
@@ -29,8 +28,6 @@ export default function Home() {
         transition={{ duration: 0.8 }}
         className="space-y-16 md:space-y-24"
       >
-        {/* 自分の投稿欄 */}
-        <FeedSection />
         {/* ヒーローセクション（自己紹介） */}
         <HeroSection />
         
