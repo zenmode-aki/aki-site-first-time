@@ -1,0 +1,25 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "_rsc_messages_ko_json";
+exports.ids = ["_rsc_messages_ko_json"];
+exports.modules = {
+
+/***/ "(rsc)/./messages/ko.json":
+/*!**************************!*\
+  !*** ./messages/ko.json ***!
+  \**************************/
+/***/ ((module) => {
+
+module.exports = JSON.parse('{"introduction":"【 안녕하세요 】\\n안녕하세요, 에자키 아키입니다.\\n\\n【 프로필 】\\n아이치현 나고야시 출신으로, 현재는 세부에 살고 있습니다.\\n\\n【 좋아하는 것 】\\n좋아하는 것은 AI입니다.\\n특히 최근에는 「Cursor」라는 AI 도구에 푹 빠져 있습니다.\\n\\n【 에자키 아키는 어떤 사람인가요? 】\\n에자키 아키는 전 세계에 감동을 전달하기 위해\\n극한까지 자신을 갈고닦는 사람입니다.\\n\\n【 이 사이트를 만든 목적 】\\nAI 개발을 해보고 싶었습니다.\\n그리고 이 사이트를 AWS에 배포하고, Lambda와 SNS를 연결해서 서버가 다운될 때 Gmail로 알림이 오는 시스템을 만드는 것이 목표입니다.","pastStory":"【 YouTube 동영상 】\\n학교 홍보를 위해 촬영한 동영상. (정말 망했습니다.)\\n\\n유학 에이전트 제출 자료\\n당시 일본 유학 에이전트에게 제출했던 자료입니다","languages":{"ja":"日本語","en":"English","ko":"한국어"},"pastStoryTitle":"과거의 아키에 대해","pastStoryDescription":"필리핀에서의 경험에 대해","pastStorySubtitle":"필리핀 클락 지역 어학원에서의 활동 기록","agentDocuments":"유학 에이전트 제출 자료","agentDocumentsDescription":"당시 일본 유학 에이전트에게 제출했던 자료입니다","documentsComingSoon":"자료를 준비 중입니다...","home":"홈"}');
+
+/***/ })
+
+};
+;
