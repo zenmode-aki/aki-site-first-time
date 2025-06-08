@@ -18,9 +18,6 @@ const photos = [
   { id: 12, src: '/gallery-11.jpg', alt: 'Aki Ezaki - Photo 11' },
   { id: 13, src: '/gallery-12.jpg', alt: 'Aki Ezaki - Photo 12' },
   { id: 14, src: '/gallery-13.jpg', alt: 'Aki Ezaki - Photo 13' },
-  { id: 15, src: '/gallery-14.jpg', alt: 'Aki Ezaki - Photo 14' },
-  { id: 16, src: '/gallery-15.jpg', alt: 'Aki Ezaki - Photo 15' },
-  { id: 17, src: '/gallery-16.jpg', alt: 'Aki Ezaki - Photo 16' },
 ];
 
 export default function PhotoGallery() {
