@@ -62,21 +62,9 @@ export default function Sidebar() {
         {/* コンテンツ */}
         <div className="p-4">
           <div className="space-y-4">
-            <Link
-              href={`/${params.locale}/past-story`}
-              className="block w-full p-4 rounded-xl bg-gradient-to-r from-orange-400/20 to-red-400/20 dark:from-orange-300/30 dark:to-red-300/30 hover:from-orange-400/30 hover:to-red-400/30 transition-all duration-300 transform hover:scale-105"
-              onClick={() => setIsOpen(false)}
-            >
-              <div className="flex items-center space-x-3">
-                <div className="w-8 h-8 rounded-full bg-gradient-to-r from-orange-400 to-red-400 dark:from-orange-300 dark:to-red-300 flex items-center justify-center">
-                  <span className="text-white text-sm font-bold">🕰️</span>
-                </div>
-                <div>
-                  <h3 className="font-semibold text-gray-800 dark:text-gray-200">{t('pastStoryTitle')}</h3>
-                  <p className="text-sm text-gray-600 dark:text-gray-400">{t('pastStoryDescription')}</p>
-                </div>
-              </div>
-            </Link>
+            <div className="text-center text-gray-500 dark:text-gray-400 py-8">
+              メニューアイテムはありません
+            </div>
           </div>
         </div>
       </div>
