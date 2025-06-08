@@ -4,7 +4,6 @@ import Introduction from '@/components/Introduction';
 import ThemeToggle from '@/components/ThemeToggle';
 import PhotoGallery from '@/components/PhotoGallery';
 import Sidebar from '@/components/Sidebar';
-import Breadcrumb from '@/components/Breadcrumb';
 
 export default function HomePage() {
   return (
@@ -19,7 +18,6 @@ export default function HomePage() {
       <ThemeToggle />
       <Sidebar />
       <LanguageSwitcher />
-      <Breadcrumb items={[]} />
       
       <main className="relative container mx-auto px-6 py-16 flex flex-col justify-center items-center min-h-screen">
         <div className="max-w-6xl w-full">
