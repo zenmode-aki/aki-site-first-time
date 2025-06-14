@@ -62,9 +62,24 @@ export default function Sidebar() {
         {/* コンテンツ */}
         <div className="p-4">
           <div className="space-y-4">
-            <div className="text-center text-gray-500 dark:text-gray-400 py-8">
-              メニューアイテムはありません
-            </div>
+            <Link 
+              href={`/${params.locale}/career`}
+              className="flex items-center space-x-4 p-4 rounded-2xl hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-300 group"
+              onClick={() => setIsOpen(false)}
+            >
+              <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-500 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                <span className="text-white text-xl">💼</span>
+              </div>
+              <div className="flex-1">
+                <h3 className="font-semibold text-gray-800 dark:text-gray-200">転職活動中</h3>
+                <p className="text-sm text-gray-600 dark:text-gray-400">一緒に働きませんか？</p>
+              </div>
+              <div className="w-6 h-6 text-gray-400 group-hover:text-gray-600 dark:group-hover:text-gray-300 transition-colors">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </div>
+            </Link>
           </div>
         </div>
       </div>

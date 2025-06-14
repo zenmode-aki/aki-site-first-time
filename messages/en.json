@@ -5,5 +5,65 @@
     "en": "English",
     "ko": "한국어"
   },
-  "home": "Home"
+  "home": "Home",
+  "career": {
+    "title": "Job Hunting",
+    "subtitle": "Let's fill the world with inspiration together!",
+    "position": {
+      "title": "Desired Position & Job Description",
+      "role": "Engineer (Position where AI can be fully utilized)",
+      "description": "Frontend or backend.\nI want to contribute to products that deliver inspiration worldwide."
+    },
+    "workstyle": {
+      "title": "Preferred Work Style & Company Culture",
+      "remote": "Full remote or flexible hybrid work (for hybrid, only companies with offices in Nagoya). I strongly desire full remote work.",
+      "ai": "I want to work at a company that actively promotes AI utilization (like using Cursor, Claude, Windsurf, MCP, etc. - companies where employees actively use AI to streamline work). It would be even better if the company encourages AI use or covers the costs.",
+      "textBased": "Important decisions and company knowledge should be documented in writing. A culture that makes decisions primarily through text rather than meetings, as text-based work makes it easier to utilize AI.",
+      "learning": "An organization with many people who continue learning.\nAn organization with high employee engagement.\nA professional sports team-like organization where everyone clearly shares the same goal of team victory and project success."
+    },
+    "skills": {
+      "title": "Skills & Experience",
+      "items": [
+        "Bilingual in Japanese and English",
+        "AWS Cloud Practitioner certification",
+        "Basic experience with AWS Lambda/SNS/CloudFormation (this site runs on AWS)",
+        "Business efficiency and automation using Zapier"
+      ]
+    },
+    "weaknesses": {
+      "title": "Weaknesses & Considerations",
+      "noise": "I'm sensitive to noise and talking voices. I excel at working in quiet environments to maximize concentration and perform better in environments with secured personal space.",
+      "projects": "I excel at focusing deeply on a small number of projects (performance is maximized when assigned to 1-2 projects only). I feel my productivity drops when assigned to 4 or more projects.",
+      "time": "I can provide high-quality output when given sufficient consideration time."
+    },
+    "achievements": {
+      "title": "Past Achievements & Things I've Built",
+      "work": "I can't discuss work-related details, but I've created Windows apps, API integrations, and web applications as a BridgeSE, managing Filipino engineers according to client requirements. I also built AWS Lambda + SNS website monitoring & failure notification automation.",
+      "hobby": "Weekend hobby projects include:\n- Journaling habit site: Google Pixel → YouTube Short → Zapier → auto-posting\n- Health log site: Apple Watch → iPhone (AutoExport) → Webhook → Spreadsheet\n- YouTube learning optimization: Notion + YouTube API for curated learning channels\n- This site: Cursor coding → AWS deployment with Lambda & SNS monitoring"
+    },
+    "personality": {
+      "title": "Soft Skills & Personality",
+      "traits": [
+        "Strong sense of ownership",
+        "Careful communication",
+        "Flexible with change and new challenges, especially eager to try new technologies",
+        "Cheerful personality, usually smiling"
+      ]
+    },
+    "conditions": {
+      "title": "Desired Conditions",
+      "salary": "I hope to start with $1500 per month for the first 6 months. After the probation period, I'd like to discuss salary again based on my growth and contribution.",
+      "workStyle": "Full remote or hybrid work (with Nagoya office for hybrid)",
+      "employment": "Employment type is flexible - full-time or contract work is fine."
+    },
+    "availability": {
+      "title": "When I Can Start",
+      "timeline": "Approximately 3 months after receiving an offer. I want to properly hand over my current projects and contribute to my current company before transitioning."
+    },
+    "message": {
+      "title": "Message",
+      "content": "I've been working as a bridge between Japan and overseas, utilizing IT and cloud knowledge for business improvement. Though I'm still young, I value continuous learning and contributing to team and company growth. I want to work on improving business quality and speed using AWS and automation.",
+      "goal": "Fill the world with inspiration"
+    }
+  }
 } 

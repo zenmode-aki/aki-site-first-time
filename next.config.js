@@ -1,12 +1,12 @@
 const createNextIntlPlugin = require('next-intl/plugin');
 
-const withNextIntl = createNextIntlPlugin();
+const withNextIntl = createNextIntlPlugin('./src/i18n.ts');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
+  env: {
+    _next_intl_trailing_slash: 'never'
+  }
 };
 
 module.exports = withNextIntl(nextConfig); 
